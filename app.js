@@ -13,7 +13,7 @@ function getFromWebAPI(uid, resultDiv, callback) {
         if (xHttp.readyState == 4 && xHttp.status == 200)
             callback(resultDiv, this.responseText);
     };
-    xHttp.open("get", "https://realapiusage.azurewebsites.net/api/" + uid);
+    xHttp.open("get", "https://realapiusage.azurewebsites.net/api/" + "Microsoft.Azure.Documents.Client.UriFactory.CreateDatabaseUri*");
     xHttp.send();
 }
 
