@@ -1,7 +1,7 @@
 
 var div = document.createElement('div');
 div.setAttribute("id", "result");
-document.getElementById("main").appendChild(div);
+document.body.appendChild(div);
 var uid = getUidName();
 getFromWebAPI(uid, div, renderRequestResult);
 
