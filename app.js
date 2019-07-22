@@ -2,7 +2,8 @@
 var div = document.createElement('div');
 div.setAttribute("id", "result");
 document.getElementById("main").appendChild(div);
-var uid = getUidName();
+//var uid = getUidName();
+var uid = "Microsoft.Azure.Documents.Client.UriFactory.CreateDatabaseUri*";
 getFromWebAPI(uid, div, renderRequestResult);
 
 
